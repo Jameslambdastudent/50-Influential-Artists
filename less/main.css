@@ -4,63 +4,35 @@
   box-sizing: border-box;
   text-align: center;
 }
-
 a {
   text-decoration: none;
 }
-
 header {
-width: 100%;
+  width: 100%;
 }
-
-nav{
+nav {
   display: flex;
   flex-direction: column;
   padding-top: 10px;
 }
-
 nav ul li {
   list-style: none;
   padding: 5px;
-  
 }
-
-.hero img{
-  width: 100%;
-  padding: 0px 10px;
+.title-container {
+  background-image: url(/assets/home.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  padding-top: 100px;
+  margin: 0px 10px;
 }
-
-img {
-  width: 100%;
-  padding: 10px 10px;
+.title-container button {
+  border-radius: 9px;
+  background-color: turquoise;
 }
-
-@media (min-width: 1200px) {
-  nav ul{
-  display: flex;
-  flex-direction: row;
-  justify-content: center
-  }
-
-  .artists-container img{
-      width: 300px;
-      height: 300px;
-      border-radius: 10%;
-  }
-  .artists-container a {
-      display: flex;
-      justify-content: center;
-  }
-  
-  nav li {
-      margin: 20px;
-  }
-  .artists-container  {
-      display: flex;
-      
-  }
-  .bio {
-      margin: 20px;
-  }
+.title-container h1 {
+  font-size: 25px;
+  color: whitesmoke;
 }
-  

@@ -1,0 +1,6 @@
+
+    1.How would you describe preprocessing to someone new to CSS? For styling a webpage.
+    2.What is your favorite concept in preprocessing? What is the concept that gives you the most trouble? escaping
+    3.How would you explain the concept of a variable to someone new to programming? to style mulitple elements with the same code
+    4.What is the purpose of using functions in code? for clean and shorter code. 
+    5. What is a JSON data? is most widely used data format for data interchange on the web.

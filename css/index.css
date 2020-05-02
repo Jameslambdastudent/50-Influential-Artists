@@ -29,6 +29,25 @@ nav ul li {
     padding: 5px;
     
 }
+ .title-container {
+    background-image: url(/assets/home.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding-top: 100px;
+    margin: 0px 10px;
+}
+
+.title-container button  {
+    border-radius: 9px;
+    background-color: turquoise;
+    
+}
+.title-container h1 {
+    font-size: 25px;
+    color: whitesmoke;
+}
 
 .hero img{
     width: 100%;
@@ -38,6 +57,7 @@ nav ul li {
 img {
     width: 100%;
     padding: 10px 10px;
+    opacity: 80%
 }
 
 @media (min-width: 1200px) {
@@ -45,16 +65,20 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center
+    
     }
 
     .artists-container img{
         width: 300px;
         height: 300px;
         border-radius: 10%;
+        
+        
     }
     .artists-container a {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     
     nav li {
@@ -65,7 +89,7 @@ img {
         
     }
     .bio {
-        margin: 20px;
+        margin: 10px;
     }
 }
     
